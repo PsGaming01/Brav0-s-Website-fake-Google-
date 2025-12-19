@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.test {
+    color:cyan;
+    background-color: black;
+    font-family:'Roboto',sans-serif;
+    font-size: 48px;
+}
+
+.centered_div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* from tutorial */
+
+body
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    min-width: 400px;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: var(--YLNNHc);
+}
+body {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.left_section,.right_section {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.profile_pic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+.search_icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.mic_icon,
+.cam_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle_section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    gap:1.2rem;
+}
+
+.search_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2.5rem;
+}
+
+.search_form_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    gap:1rem ;
+    border-radius: 30px;
+    padding:0.5rem 1.5rem;
+}
+
+.search_form label {
+    display: none;
+}
+
+.search_form input {
+    width: 27rem;
+    padding:0.5rem;
+    border:none;
+    outline: none;
+}
+
+.search_form button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 8px;
+    color: #3c4043;
+    font-family: Roboto, Arial, sans-serif;
+    font-optical-sizing: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.bottom_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding:1rem 1.5rem;
+    margin-top:15rem;
+}
+
+.bottom_section a {
+    margin:0.1rem;
+}
